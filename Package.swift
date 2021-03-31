@@ -7,7 +7,7 @@ let package = Package(
         .library(name: "AndroidUIKit", targets: ["AndroidUIKit"])
         ],
     dependencies: [
-        .package(url: "https://github.com/PureSwift/Android.git", .branch("master"))
+        .package(url: "https://github.com/kodika/Android.git", .branch("master"))
     ],
     targets: [
         .target(
